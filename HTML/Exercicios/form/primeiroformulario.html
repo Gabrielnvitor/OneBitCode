@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cadastro da liga dos astronautas</title>
+  </head>
+  <body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <form action="" target="_blank">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        -
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <br />
+      <div>
+        <label for="dataNasc">Data de nascimento:</label>
+        <input type="date" name="dataNasc" id="dataNasc" />
+        -
+        <label for="foto">Foto:</label>
+        <input type="file" name="foto" id="foto" />
+      </div>
+      <br />
+      <div>
+        <label for="nacionalidade">Nacionalidade</label>
+        <select name="nacionalidade" id="nacionalidade" />
+          <option value="Americano">Americano</option>
+          <option value="Russo">Russo</option>
+          <option value="Brasileiro">Brasileiro</option>
+        </select>
+        Gênero
+        <input type="radio" name="genero" id="masc" value="M" />
+        <label for="masc">M</label>
+        <input type="radio" name="genero" id="fem" value="F" />
+        <label for="fem">F</label>
+      </div>
+      <br />
+      <div>
+        Suas principais qualidades:
+        <br />
+        <label for="intelig">Inteligência</label>
+        <input type="checkbox" name="intelig" id="intelig" value="intelig" />
+        | <label for="resili">Resiliência</label>
+        <input type="checkbox" name="resili" id="resili" value="resili" />
+        | <label for="fisico">Preparo físico</label>
+        <input type="checkbox" name="fisico" id="fisico" value="fisico" />
+        | <label for="educacao">Educação</label>
+        <input type="checkbox" name="educacao" id="educacao" value="educacao" />
+      </div>
+      <br />
+      <div>
+        <textarea name="" id="" rows="10" cols="30" placeholder="Porque você gostaria de ser um astronauta?"></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Criar" />
+      </div>
+    </form>
+  </body>
+</html>
